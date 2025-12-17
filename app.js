@@ -1,15 +1,15 @@
 const BRAND = {
   name: "VANZEL STORE",
   desc: `Caption/Deskripsi singkat di sini.<br/>Fast response • Trusted • Ready stock`,
-  avatar: "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=600&q=80&auto=format&fit=crop",
-  wm: "VANZEL STORE",
-  hours: "CS 08.00–22.00 (WIB) • Setiap hari",
-  pills: ["🔥 Promo harian", "📦 Ready stock", "💬 CS 08.00–22.00"],
+  avatar: "https://files.catbox.moe/dgpuur.jpg",
+  wm: "Iniisnx",
+  hours: "Bio buatan gua, untuk informasi tentang preset dll",
+  pills: ["🥳go to 2k followers","bagi-bagi preset"],
   contact: {
-    fullName: "VANZEL STORE",
-    phone: "+62 831-0650-8500",
-    email: "emailkamu@email.com",
-    website: "https://contoh-domain-kamu.com",
+    fullName: "Isan",
+    phone: "+62 851-3521-4510",
+    email: "anomalitulilut@gmail.com",
+    website: "https://",
   }
 };
 
