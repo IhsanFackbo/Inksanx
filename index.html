@@ -3,21 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>VANZEL STORE — Link Hub</title>
-  <meta name="description" content="Official link hub VANZEL STORE. Instagram, TikTok, WhatsApp, Shopee, Email, dan lainnya." />
+  <meta name="description" content="Official link hub VANZEL STORE." />
 
-  <!-- Open Graph (preview saat dibagikan) -->
-  <meta property="og:title" content="VANZEL STORE — Link Hub" />
-  <meta property="og:description" content="Akses semua link official VANZEL STORE di satu tempat." />
-  <meta property="og:type" content="website" />
-  <!-- Ganti dengan gambar kamu (sama seperti foto profil atau banner) -->
-  <meta property="og:image" content="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=900&q=80&auto=format&fit=crop" />
-
-  <!-- FavIcon (opsional) -->
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%99%3C/text%3E%3C/svg%3E">
-
-  <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
@@ -26,17 +14,19 @@
 </head>
 
 <body>
-  <!-- Background blobs -->
-  <div class="blob b1"></div>
-  <div class="blob b2"></div>
-  <div class="grain"></div>
+  <!-- ✅ FIX: Background container -->
+  <div class="bg" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="vignette"></div>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
 
   <div class="wrap">
     <main class="card" role="main">
 
       <header class="topbar">
         <div class="badge">✨ Link Hub</div>
-
         <div class="mini">
           <button class="iconbtn" id="copyBtn" title="Copy link">⧉</button>
           <button class="iconbtn" id="shareBtn" title="Share">⤴</button>
@@ -46,34 +36,28 @@
 
       <section class="profile">
         <div class="avatar">
-          <!-- Ganti src foto kamu -->
           <img id="avatarImg"
                src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=600&q=80&auto=format&fit=crop"
-               alt="Foto profil VANZEL STORE" />
+               alt="Foto profil" />
         </div>
 
         <h1 id="brandName">VANZEL STORE</h1>
-
         <p class="desc" id="brandDesc">
-          Caption/Deskripsi singkat di sini. Bisa untuk brand, layanan, atau toko kamu.<br/>
-          Fast response • Trusted • Ready stock
+          Caption/Deskripsi singkat di sini.<br/>Fast response • Trusted • Ready stock
         </p>
 
-        <div class="stats" id="pillWrap">
-          <!-- pills diisi dari app.js -->
-        </div>
+        <div class="stats" id="pillWrap"></div>
       </section>
 
-      <section class="links" aria-label="Tautan">
+      <section class="links">
         <div class="sectionTitle">
           <span>Link Utama</span>
           <small>Klik untuk membuka</small>
         </div>
-
         <div id="linksWrap"></div>
       </section>
 
-      <section class="extras" aria-label="Info tambahan">
+      <section class="extras">
         <div class="extraCard">
           <div class="extraHead">
             <strong>Jam Operasional</strong>
@@ -100,7 +84,6 @@
   </div>
 
   <div class="toast" id="toast">Copied!</div>
-
   <script src="app.js"></script>
 </body>
 </html>
