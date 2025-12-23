@@ -15,7 +15,7 @@ const BRAND = {
 
 const LINKS = [
   { title: "Instagram", subtitle: "bisa lah di follow ygy", href: "https://www.instagram.com/isan_myo7?igsh=MThncTFqZjE2NnlyNg==", icon: "IG" },
-  { title: "Saluran Whatsaap", subtitle: "Informasi mendatang", href: "https://whatsapp.com/channel/0029Vb6s3rm4o7qMg3w0KE0K", icon: "WA" },
+  { title: "Saluran Whatsaap", subtitle: "Informasi mendatang", href: "https://whatsapp.com/channel/0029Vb7M8VA05MUkehrqcl3J", icon: "WA" },
   { title: "Order Am prem", subtitle: "Order alight motion premium", href: "https://wa.me/6285800742763?text=mau+order+am+prem+isan", icon: "WA" },
   { title: "Youtube", subtitle: "Official Youtube", href: "https://youtube.com/@esfour00?si=G5D1guQhKax4hkXo", icon: "YT" },
   { title: "Gc Bot v 2.0", subtitle: "Group Bots whatsaap", href: "https://chat.whatsapp.com/C7SgXo9bdbE1eAqmjwIeb9?mode=hqrc", icon: "WA" },
